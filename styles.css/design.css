@@ -158,3 +158,11 @@ main {
     padding: 30px 30px 0px 150px;
     
 }
+/* contact styles */
+.contact{
+    background-image: url('../Rectangle\ 9.png');
+    background-repeat: no repeat;
+}
+.contact-input{
+    width: 50%;
+}
