@@ -123,7 +123,7 @@ main {
 }
 
 .pink-item {
-    padding: 30px 80px 0px 30px;
+    padding: 33px 105px 0px 30px;
     margin-bottom: 0px;
     height: 94%;
 
@@ -139,6 +139,7 @@ main {
 .flower {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    
 }
 
 .tree {
@@ -172,6 +173,8 @@ main {
     background-image: url('../Rectangle\ 9.png');
     background-repeat: no repeat;
     padding: 30px 30px 30px 150px;
+    margin: 50px;
+    
     
 }
 .contact-input{
