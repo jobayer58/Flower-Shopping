@@ -95,16 +95,16 @@ main {
 
 /*  2nd div */
 .working-title {
-    text-align: center;
     color: #272727;
+    text-align: center;
     font-family: Lato;
     font-size: 40px;
     margin-top: 0px;
 }
 
 .working-discription {
-    text-align: center;
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-family: Lato;
     font-size: 18px;
     margin-top: 10px;
@@ -116,19 +116,23 @@ main {
     display: flex;
     text-align: center;
     gap: 10px;
-    width: 1920px;
+    /* width: 20px; */
+    /* padding: 30px 30px 30px 150px; */
+    /* justify-content:space-around; */
+    
 
 }
 
 .pink-item {
     padding: 30px 30px 0px 30px;
-    margin-bottom: px;
+    margin-bottom: 0px;
 
 }
 
 .pink {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    
 }
 
 .flower {
@@ -162,7 +166,39 @@ main {
 .contact{
     background-image: url('../Rectangle\ 9.png');
     background-repeat: no repeat;
+    padding: 30px 30px 30px 150px;
+    
 }
 .contact-input{
     width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
+/* footer */
+footer{
+    background-color: black;
+    padding: 100px;
+    
+}
+.footer-title{
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+.footer-discription{
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.design{
+    color: #E55473;
+}
+
+
+
