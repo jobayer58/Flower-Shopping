@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
 body {
@@ -51,7 +51,7 @@ body {
 
 /* main section */
 /* About section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -68,17 +68,26 @@ main{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 100px;
+    color: #272727;
+    font-family: Lato;
+
 }
-.section-description{
+
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
+    margin-bottom: 130px;
+    font-family: Lato;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
 
@@ -88,11 +97,9 @@ main{
 .working-title {
     text-align: center;
     color: #272727;
-    text-align: center;
     font-family: Lato;
     font-size: 40px;
-    font-weight: 800;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .working-discription {
@@ -100,14 +107,54 @@ main{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
     margin-top: 10px;
+    margin-bottom: 50px;
 
 }
 
-/* .bay-sell { */
+.choose {
+    display: flex;
+    text-align: center;
+    gap: 10px;
     width: 1920px;
-    height: 4867px;
+
+}
+
+.pink-item {
+    padding: 30px 30px 0px 30px;
+    margin-bottom: px;
+
+}
+
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.tree {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* discount styles */
+.discount{
+    padding: 130px 0px 130px 0px ;
+    margin:  0 ;
+    border-radius: 10px;
+    
+}
+
+.discount-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 30px 30px 0px 150px;
+    
 }
