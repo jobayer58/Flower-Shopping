@@ -141,6 +141,10 @@ main {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+.figca{
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 /* discount styles */
 .discount{
