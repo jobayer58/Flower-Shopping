@@ -31,9 +31,7 @@ body {
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     width: 508px;
-    
     margin-top: 2%;
-
 }
 
 
@@ -193,6 +191,8 @@ footer{
 .design{
     color: #E55473;
 }
-
+.web-picture{
+    display: block;
+}
 
 
