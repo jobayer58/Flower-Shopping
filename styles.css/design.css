@@ -16,7 +16,8 @@ body {
 .banner{
     display: flex;
     align-items: center;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    justify-content:space-around;
 }
 
 .banner-title {
@@ -29,6 +30,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     width: 508px;
     /* height: 288px; */
+    margin-top: 2%;
   
 }
 
@@ -40,6 +42,7 @@ body {
     font-size:20px ;
     font-weight: 700;
     padding: 20px 43px 20px 43px;
+    margin-top: 2%;
 
 }
 
