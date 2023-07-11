@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 
 }
 
-
 .banner-title {
     color: #272727;
     font-family: Lato;
@@ -32,10 +31,11 @@ body {
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     width: 508px;
-    /* height: 288px; */
+    
     margin-top: 2%;
 
 }
+
 
 .btn-primary {
     border-radius: 5px;
@@ -92,8 +92,6 @@ main {
 }
 
 
-
-/*  2nd div */
 .working-title {
     color: #272727;
     text-align: center;
@@ -116,10 +114,6 @@ main {
     display: flex;
     text-align: center;
     gap: 10px;
-    /* width: 20px; */
-    /* padding: 30px 30px 30px 150px; */
-    /* justify-content:space-around; */
-    
 
 }
 
