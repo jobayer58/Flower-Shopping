@@ -10,28 +10,31 @@ body {
 
 .header {
     background: rgba(229, 84, 115, 0.10);
-   
+
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     padding: 30px 30px 0px 150px;
-    justify-content:space-around;
+    justify-content: space-around;
+
 }
+
 
 .banner-title {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
-    font-weight: 800;  
+    font-weight: 800;
 }
+
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     width: 508px;
     /* height: 288px; */
     margin-top: 2%;
-  
+
 }
 
 .btn-primary {
@@ -39,28 +42,59 @@ body {
     background: #E55473;
     color: white;
     border: 0;
-    font-size:20px ;
+    font-size: 20px;
     font-weight: 700;
     padding: 20px 43px 20px 43px;
     margin-top: 2%;
 
 }
 
-          /*  2nd div */
-.section-title{
-    text-align: center;
+/* main section */
+/* About section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: rgba(229, 84, 115, 0.10);
+    margin: 130px 0;
 }
-.section-discription{
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/*  2nd div */
+.working-title {
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.working-discription {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
 
 }
-.about{
+
+.bay-sell {
     width: 1920px;
-height: 4867px;
+    height: 4867px;
 }
