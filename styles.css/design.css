@@ -118,6 +118,9 @@ main {
     justify-content: space-around;
 
 }
+.choose-item{
+    justify-content: space-around;
+}
 
 .pink-item {
     padding: 30px 80px 0px 30px;
